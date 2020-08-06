@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ozan Paker">
+    <meta name="keywords" content="html pratikleri,html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Practices</title>
+    <!-- title ne işe yarar? -->
+    <link id="favicon" rel="shortcut icon" type="image/png" href="favicon.png"/>
+   <style>
+     table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+     }
+     th, td {
+       padding: 5px;
+     }
+     th {
+       text-align: left;
+     }
+   </style>
+
+   <style>
+     table {
+       width:50%
+     }
+     table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+     }
+     th, td {
+       padding: 5px
+       text-align: left;
+     }
+     #t01 tr:nth-child(even) {
+       background-color: #eee;
+     }
+     #t01 tr:nth-child(odd) {
+       background-color: #fff;
+     }
+     #t01 th {
+       background-color: black;
+       color: white;
+     }
+   </style>
+
+  </head>
+  <body>
+<h2>Açıklama Listesi</h2>
+<dl>
+  <dt>Şeftali</dt>
+  <dd>- Bursa'da yetişir.</dd>
+  <dt>Çay</dt>
+  <dd>- Karadeniz Bölgesinde yetişir.</dd>
+</dl>
+<hr/>
+<h2>Sırasız HTML List</h2>
+
+<ul>
+  <li>Şeftali</li>
+  <li>Çay</li>
+  <li>portakal</li>
+</ul>
+
+<h2>Sıralanmış HTML List</h2>
+
+<ol>
+  <li>şeftali</li>
+  <li>çay</li>
+  <li>portakal</li>
+</ol>
+<hr/>
+ <table style="width:50%">
+   <tr>
+     <th>Adı</th>
+     <th>Soyadı</th>
+     <th>Yaşı</th>
+   </tr>
+   <tr>
+     <td>Ozan</td>
+     <td>Paker</td>
+     <td>20</td>
+   </tr>
+   <tr>
+     <td>Jill</td>
+     <td>smith</td>
+     <td>80</td>
+   </tr>
+   <tr>
+     <td>Eve</td>
+     <td>Jackson</td>
+     <td>95</td>
+   </tr>
+
+ </table>
+
+<h2>Sytling Tables</h2>
+   <table id="t01">
+     <tr>
+       <th>Adı</th>
+       <th>Soyadı</th>
+       <th>Yaşı</th>
+     </tr>
+     <tr>
+       <td>Ozan</td>
+       <td>Paker</td>
+       <td>20</td>
+     </tr>
+     <tr>
+       <td>Jill</td>
+       <td>Smith</td>
+       <td>80</td>
+     </tr>
+     <tr>
+       <td>Eve</td>
+       <td>Jackson</td>
+       <td>95</td>
+     </tr>
+   </table>
+
+
+  </body>
+</html>
